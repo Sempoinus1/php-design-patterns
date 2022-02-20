@@ -1,0 +1,2 @@
+* jednoduše šetřímě paměť, tím že budeme ukládat duplikáty do jednoho pole
+  * když teda bude miliarda záznamů a půlka z nich bude stejná ušetřímě polovinu paměti oproti tomu kdybychom neukládali duplikáty

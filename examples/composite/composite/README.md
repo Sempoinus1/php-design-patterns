@@ -1,0 +1,2 @@
+* využíváme jeden hlavní objekt k práci s vedlejšími objekty -> mám dva tvary circle a square a oba jsou vlastně GraphicObject který se stará o vykreslení/získání informací o těchto dvou tvarech 
+  * samotný tvar je definovaný pouze názvem
