@@ -1,0 +1,2 @@
+* inner factory povoluje volaní private constructoru jiné třídy, s tím ale že vnoříme factory dovnitř třídy s private contructorem
+  * bohužel PHP nedokáže vnořovat třídy do sebe - musíme si vystačit s normální Factory

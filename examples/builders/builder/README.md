@@ -1,0 +1,1 @@
+* tento kurz učí jak efektivně stavět buildery - v tomto příkladě jednoduchý builder pro hezky větvené HTML

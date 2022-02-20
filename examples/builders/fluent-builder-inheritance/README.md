@@ -1,0 +1,2 @@
+* problém s děděním builderu je že nebude fungovat ve chvíli kdy používám return type parent Builderu, v tu chvíli nemohu použít rodičovskou metodu a použít fluent builder abych přidal zděděnou metodu
+* v C# je to celkem insane ale v PHP jednoduchý - stačí používat self místo toho co se returnuje

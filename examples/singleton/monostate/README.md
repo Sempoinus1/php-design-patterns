@@ -1,0 +1,1 @@
+* monostate pattern - je možné udělat vícero instancí jedné třídy čímž vytvoříme dvě identické instnace, tzn. vytvořím-li prvního CEO a nastavím mu věk, jméno a inicializuju druhého bude mít vlastnosti toho prnvího a zároveň když druhého přepíšu, přepíše se s ním i první

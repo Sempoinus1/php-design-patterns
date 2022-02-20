@@ -1,0 +1,3 @@
+* tenhle kurz byl za mě v PHP celkem useless
+* řeší se tu že když mám objekty v tomto případě obdélník a čtverec tak mohou být inicializovaé ze stejné třídy tj. mohu extendnout čtverec o obdelník a jen nastavovat stejné velikosti jak u šířky tak výšky v C# to dává smysl jelikož gettery a settery fungují jinak
+* v PHP se však využije metoda __construct a vytvoří se instance obdélníku nastavená o velikosti čtverce tj. vytvořím čtverec a nebudu mít problém s tím že kdybych nahradil inicializování Square $sq = new Square(5); za Rectangle $sq = new Square(5); (v jeho případě settery nastaví pouze šířku a výška bude nula, v mém případě to funguje správně)

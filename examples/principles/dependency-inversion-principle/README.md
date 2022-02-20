@@ -1,0 +1,3 @@
+* v tomto případě kurz učí o tom že high-level moduly by neměly brát/spoléhat na low-level moduly v rámci zobrazování dat
+* co se stalo v případě, že jsem použil dependency high-levelu na low-level bylo to, že jsem z private proměnné vytvořil public v tu chvíli by Relationships byla exposnutá
+* využitím interfacu jsem dosáhl stejného cíle - zjistil jsem johnovi děti bez toho ale abych uměle měnil private proměnou na public

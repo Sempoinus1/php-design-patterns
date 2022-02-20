@@ -1,0 +1,2 @@
+* narozdíl od předchozího factory-method využíváme novou classu PointFactory, která se stará o inicializaci správných komponent
+* v tomto případě je však nastaven v Point konstruktor na public -> takže je přístupný pro inicializaci jinde, ale má správně nazvané parametry a neumí nic jiného než jeden kalkulační systém, takže narozdíl od point-example nejsou třeba žádné komentáře
