@@ -1,0 +1,1 @@
+* díky třídě Memento, zapamatujeme si různé akce (deposit) a je možné kdykoliv rollbacknout na uložené Memento 

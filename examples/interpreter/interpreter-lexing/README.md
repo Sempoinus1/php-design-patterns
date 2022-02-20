@@ -1,0 +1,1 @@
+* ze stringu jsme vytvořili řadu tokenů 

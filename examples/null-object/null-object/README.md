@@ -1,0 +1,1 @@
+* využíváno tak kdybychom měli třídu, která nelze změnit ale požaduje po nás nějaký např. logování, které nemáme / nechceme, musíme využít null object - definujeme potřebnou třídu, která nebude ale dělat vůbec nic

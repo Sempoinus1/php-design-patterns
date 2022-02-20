@@ -77,12 +77,21 @@ class IncreasedDefenseModifier extends CreatureModifier
 
 }
 
+class NoBonusesModifier extends CreatureModifier
+{
+    public function handle(): void
+    {
+        // magic
+    }
+
+}
+
 class Demo
 {
     public function __construct()
     {
         $goblin = new Creature("Goblin", "2", "1");
-        echo($goblin);
+        echo($goblin);;
 
         $root = new CreatureModifier($goblin);
         echo("Let's double goblin's attack \n");
@@ -90,6 +99,7 @@ class Demo
         $root->add(new DoubleAttackModifier($goblin));
         $root->add(new DoubleAttackModifier($goblin));
         $root->add(new IncreasedDefenseModifier($goblin));
+        $root->add(new NoBonusesModifier($goblin));
         $root->add(new IncreasedDefenseModifier($goblin));
         $root->add(new IncreasedDefenseModifier($goblin));
         $root->add(new DoubleAttackModifier($goblin));

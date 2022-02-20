@@ -1,0 +1,1 @@
+* třída People k sobě nemusí mít žádnou referenci
